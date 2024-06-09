@@ -1,0 +1,32 @@
+{
+  "name": "md-editor",
+  "version": "1.0.1",
+  "description": "A simple Markdown and Mermaid editor",
+  "author": "LuxAeris",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "29.0.1",
+    "electron-builder": "^24.3.0"
+  },
+  "build": {
+    "appId": "com.example.mdeditor",
+    "productName": "MD Editor",
+    "files": [
+      "main/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

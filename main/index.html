@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown and Mermaid Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="toolbar">
+    <button id="openButton">Open File</button>
+    <button id="saveButton">Save File</button>
+</div>
+<div id="container">
+    <textarea id="editor" placeholder="Write your Markdown with Mermaid here..."></textarea>
+    <div id="preview"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
