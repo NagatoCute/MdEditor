@@ -50,7 +50,4 @@ md-editor
 ├── main.js
 ├── package.json
 └── README.md
-Configuration
-package.json
-json
 ```
