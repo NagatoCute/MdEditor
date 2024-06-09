@@ -16,7 +16,7 @@ A simple Markdown and Mermaid editor
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/NagatoCute/MD-Editor
+git clone https://github.com/NagatoCute/MdEditor
 cd md-editor
 Install dependencies:
 ```
